@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container {
+    width: 85%;
+    margin: 50px auto;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(255,255,255,0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 14px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+th {
+    background-color: #ffffff;
+}
+
+td {
+    height: 60px;
+}
+
+td:first-child {
+    font-weight: bold;
+    background-color: #ffffff;
+}

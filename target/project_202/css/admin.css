@@ -1,0 +1,168 @@
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    background-color: #f4f6f9;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*.container {*/
+/*    width: 70%;*/
+/*    margin: 40px auto;*/
+/*    background: white;*/
+/*    padding: 30px;*/
+/*    border-radius: 8px;*/
+/*    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*h2 {*/
+/*    text-align: center;*/
+/*    margin-bottom: 30px;*/
+/*}*/
+
+/*.section {*/
+/*    margin-bottom: 25px;*/
+/*}*/
+
+/*label {*/
+/*    display: block;*/
+/*    margin-bottom: 6px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*input[type="text"],*/
+/*input[type="number"],*/
+/*input[type="time"] {*/
+/*    width: 100%;*/
+/*    padding: 8px;*/
+/*    border-radius: 4px;*/
+/*    border: 1px solid #ccc;*/
+/*}*/
+
+/*.row {*/
+/*    display: flex;*/
+/*    gap: 20px;*/
+/*}*/
+
+/*.column {*/
+/*    flex: 1;*/
+/*}*/
+
+/*.checkbox-group label {*/
+/*    display: inline-block;*/
+/*    margin-right: 15px;*/
+/*}*/
+
+/*button {*/
+/*    margin-top: 10px;*/
+/*    padding: 10px 18px;*/
+/*    background-color: #222;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*button:hover {*/
+/*    background-color: #444;*/
+/*}*/
+
+/* ====== General Page Styling ====== */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 75%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h4 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* ====== Input Fields ====== */
+
+input[type="text"],
+input[type="number"] {
+    width: 250px;
+    padding: 8px;
+    margin: 8px 10px 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type="time"] {
+    width: 120px;
+    padding: 6px;
+    margin: 5px 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* ====== Period Container ====== */
+
+#periodTimings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#periodTimings div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f9fafc;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+/* ====== Button Styling ====== */
+
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #1e4fd8;
+}
+
+/* ====== Divider ====== */
+
+hr {
+    margin: 30px 0;
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+}
